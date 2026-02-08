@@ -1,199 +1,198 @@
 data_action = [
     {
-        title: "Attack",
+        title: "Támadás",
         icon: "crossed-swords",
-        subtitle: "Melee or ranged attack",
-        description: "Perform a melee or ranged attack with your weapon",
-        reference: "PHB, pgs. 192,194-195.",
+        subtitle: "Közelharci vagy távolsági támadás",
+        description: "Hajts végre egy közelharci vagy távolsági fegyvertámadást",
+        reference: "PHB, 192., 194–195. o.",
         bullets: [
-            "Certain features, such as the <i>Extra Attack</i> feature of the fighter, allow you to make more than one attack with this action. Each of these attacks is a separate roll and may target different creatures. You may move in between these attacks.",
-            "When you attack with a light melee weapon, you can use a bonus action to attack with your other hand (see the <i>Offhand attack</i> bonus action).",
-            "You may replace one of your melee attacks with a <i>Grapple</i> or a <i>Shove</i>.",
-            "Some conditions give advantage on the attack: attacks against blinded, paralyzed, petrified, restrained, stunned, or unconscious targets; melee attacks against prone targets; attacks by invisible or hidden attackers.",
-            "Some conditions give disadvantage on the attack: attacks against invisible or hidden targets; ranged attacks against prone targets; attacks by blinded, frightened, poisoned, or restrained attackers."
+            "Bizonyos képességek, például a harcos <i>Extra Támadás</i> képessége lehetővé teszik, hogy egynél több támadást hajts végre ezzel az akcióval. Minden támadás külön dobás, és különböző lényeket is célozhat. A támadások között mozoghatsz.",
+            "Ha könnyű közelharci fegyverrel támadsz, bónusz akcióként támadhatsz a másik kezeddel is (lásd <i>Melléktámadás</i> bónusz akció).",
+            "Az egyik közelharci támadásodat lecserélheted egy <i>Birkózásra</i> vagy egy <i>Lökésre</i>.",
+            "Bizonyos állapotok előnyt adnak a támadásra: vak, bénult, megkövesedett, megkötözött, elkábított vagy eszméletlen célpontok elleni támadások; hason fekvő célpont elleni közelharci támadások; láthatatlan vagy rejtőzködő támadó támadásai.",
+            "Bizonyos állapotok hátrányt adnak a támadásra: láthatatlan vagy rejtőzködő célpont elleni támadások; hason fekvő célpont elleni távolsági támadások; vak, megrémült, megmérgezett vagy megkötözött támadó támadásai."
         ]
     },
     {
-        title: "Grapple",
+        title: "Birkózás",
         icon: "grab",
-        subtitle: "Special melee attack",
-        description: "Attempt to grab a creature or wrestle with it",
-        reference: "PHB, pg. 195.",
+        subtitle: "Speciális közelharci támadás",
+        description: "Megpróbálsz megragadni vagy lefogni egy lényt",
+        reference: "PHB, 195. o.",
         bullets: [
-            "You can use the <i>Attack</i> action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
-            "The target of your grapple must be no more than one size larger than you, and it must be within your reach.",
-            "Using at least one free hand, you try to seize the target by making a grapple check, a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use).",
-            "If you succeed, you subject the target to the grappled condition (its speed is set to 0)."
+            "A <i>Támadás</i> akcióval végrehajthatsz egy speciális közelharci támadást, a birkózást. Ha az Akcióval több támadásra is képes vagy, ez a támadás az egyik helyébe lép.",
+            "A célpont legfeljebb egy méretkategóriával lehet nagyobb nálad, és a hatótávolságodon belül kell lennie.",
+            "Legalább egy szabad kézzel megpróbálod megragadni a célpontot: Erő (Atlétika) próbát dobsz, amit a célpont Erő (Atlétika) vagy Ügyesség (Akrobatika) próbája ellenez (a célpont választ).",
+            "Siker esetén a célpont megkapja a megragadott állapotot (a sebessége 0-ra csökken)."
         ]
     },
     {
-        title: "Shove",
+        title: "Lökés",
         icon: "hand",
-        subtitle: "Special melee attack",
-        description: "Shove a creature, either to knock it prone or push it away from you",
-        reference: "PHB, pg. 195.",
+        subtitle: "Speciális közelharci támadás",
+        description: "Ellöksz egy lényt, hogy hasra essen vagy eltávolodjon tőled",
+        reference: "PHB, 195. o.",
         bullets: [
-            "Using the <i>Attack</i> action, you can make a special melee attack to shove a creature. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
-            "The target of your shove must be no more than one size larger than you, and it must be within your reach.",
-            "You make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use).",
-            "If you win the contest, you either knock the target prone or push it 5 feet away from you."
+            "A <i>Támadás</i> akcióval végrehajthatsz egy speciális közelharci támadást, a lökést. Ha az Akcióval több támadásra is képes vagy, ez a támadás az egyik helyébe lép.",
+            "A célpont legfeljebb egy méretkategóriával lehet nagyobb nálad, és a hatótávolságodon belül kell lennie.",
+            "Erő (Atlétika) próbát dobsz, amit a célpont Erő (Atlétika) vagy Ügyesség (Akrobatika) próbája ellenez (a célpont választ).",
+            "Ha megnyered az ellenpróbát, a célpont vagy hasra esik, vagy 5 lábbal eltávolodik tőled."
         ]
     },
     {
-        title: "Cast a spell",
+        title: "Varázslás",
         icon: "magic-swirl",
-        subtitle: "Cast time of 1 action",
-        description: "Cast a spell with a casting time of 1 action",
-        reference: "PHB, pg. 192.",
+        subtitle: "Varázslási idő: 1 akció",
+        description: "Varázslat elmondása, amelynek varázslási ideje 1 akció",
+        reference: "PHB, 192. o.",
         bullets: [
-            "You can't cast a spell with you action and a different spell with your bonus action in the same turn, except if the action is used to cast a cantrip.",
-            "The target of a spell must be within the spell's range. To target something, you must have a clear path to it, so it can't be behind total cover.",
-            "Spells with material components do not consume the material unless explicitly stated. Unless the cost of a material is given, you can assume that the cost is negligible and the material is simply available in a component pouch.",
-            "Some spells require you to maintain concentration in order to keep their magic active. If you lose concentration, such a spell ends. You lose concentration on a spell if you cast another spell that requires concentration or when you are incapacitated. Each time you take damage, you must make a Constitution saving throw to maintain your concentration. The DC equals 10 or half the damage you take, whichever number is higher."
+            "Ugyanabban a körben nem varázsolhatsz egy varázslatot akcióval és egy másikat bónusz akcióval, kivéve ha az akcióval egy cantripet varázsolsz.",
+            "A varázslat célpontjának a varázslat hatótávolságán belül kell lennie. A célzásához tiszta útvonal szükséges, tehát nem lehet teljes fedezék mögött.",
+            "Az anyagi komponensek nem fogyasztódnak el, hacsak a varázslat kifejezetten nem mondja. Ha nincs feltüntetve költség, feltételezhető, hogy elhanyagolható, és a komponens elérhető egy komponenserszényben.",
+            "Egyes varázslatok koncentrációt igényelnek. Ha elveszíted a koncentrációt, a varázslat véget ér. Elveszíted a koncentrációt, ha egy másik koncentrációt igénylő varázslatot varázsolsz, vagy ha cselekvőképtelenné válsz. Minden alkalommal, amikor sebzést szenvedsz, Alkotmány mentődobást kell tenned a koncentráció fenntartásához. A DC értéke 10 vagy a kapott sebzés fele (amelyik nagyobb)."
         ]
     },
     {
-        title: "Dash",
+        title: "Sprint",
         icon: "sprint",
-        subtitle: "Double movement speed",
-        description: "Gain extra movement for the current turn",
-        reference: "PHB, pg. 192.",
+        subtitle: "Mozgási sebesség megduplázása",
+        description: "Extra mozgást kapsz a jelenlegi körödre",
+        reference: "PHB, 192. o.",
         bullets: [
-            "The increase equals your speed, after applying any modifiers."
+            "A növekedés mértéke megegyezik a sebességeddel, minden módosító alkalmazása után."
         ]
     },
     {
-        title: "Disengage",
+        title: "Kivonulás",
         icon: "journey",
-        subtitle: "Prevent opportunity attacks",
-        description: "Your movement doesn't provoke opportunity attacks for the rest of the turn",
-        reference: "PHB, pg. 192.",
+        subtitle: "Lehetőség támadások elkerülése",
+        description: "A mozgásod nem vált ki lehetőség támadásokat a kör végéig",
+        reference: "PHB, 192. o.",
         bullets: [
         ]
     },
     {
-        title: "Dodge",
+        title: "Védekezés",
         icon: "aura",
-        subtitle: "Increase defenses",
-        description: "Focus entirely on avoiding attacks",
-        reference: "PHB, pg. 192.",
+        subtitle: "Védelem növelése",
+        description: "Teljes mértékben a támadások elkerülésére koncentrálsz",
+        reference: "PHB, 192. o.",
         bullets: [
-            "Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage.",
-            "You lose this benefit if you are <i>incapacitated</i> or if your speed drops to 0."
+            "A következő köröd kezdetéig minden ellened irányuló támadás hátránnyal történik, ha látod a támadót, és Ügyesség mentődobásaid előnnyel zajlanak.",
+            "Ez az előny megszűnik, ha <i>cselekvőképtelenné</i> válsz, vagy ha a sebességed 0-ra csökken."
         ]
     },
     {
-        title: "Escape",
+        title: "Kiszabadulás",
         icon: "manacles",
-        subtitle: "Escape a grapple",
-        description: "Escape a grapple",
-        reference: "PHB, pg. 195.",
+        subtitle: "Szabadulás birkózásból",
+        description: "Kiszabadulsz egy birkózásból",
+        reference: "PHB, 195. o.",
         bullets: [
-            "To escape a grapple, you must succeed on a Strength (Athletics) or Dexterity (Acrobatics) check contested by the grappler's Strength (Athletics) check.",
-            "Escaping other conditions that restrain you (such as manacles) may require a Dexterity or Strength check, as specified by the condition."
+            "A birkózásból való szabaduláshoz Erő (Atlétika) vagy Ügyesség (Akrobatika) próbát kell dobnod, amit a birkózó Erő (Atlétika) próbája ellenez.",
+            "Más, mozgást korlátozó állapotokból (például bilincsek) való szabadulás Ügyesség vagy Erő próbát igényelhet, az adott állapot leírása szerint."
         ]
     },
     {
-        title: "Help",
+        title: "Segítség",
         icon: "telepathy",
-        subtitle: "Grant an ally advantage",
-        description: "Grant an ally advantage on an ability check or attack",
-        reference: "PHB, pg. 192.",
+        subtitle: "Előny biztosítása egy szövetségesnek",
+        description: "Előnyt adsz egy szövetségesnek képességpróbára vagy támadásra",
+        reference: "PHB, 192. o.",
         bullets: [
-            "The target gains advantage on the next ability check it makes to perform the task you are helping with.",
-            "Alternatively, the target gains advantage on the next attack roll against against a creature within 5 feet of you.",
-            "The advantage lasts until the start of your next turn."
+            "A célpont előnyt kap a következő képességpróbájára, amelyet az általad segített feladat végrehajtására tesz.",
+            "Alternatívaként a célpont előnyt kap a következő támadásdobására egy olyan lény ellen, amely 5 lábon belül van tőled.",
+            "Az előny a következő köröd kezdetéig tart."
         ]
     },
     {
-        title: "Use Object",
+        title: "Tárgy használata",
         icon: "snatch",
-        subtitle: "Interact, use special abilities",
-        description: "Interact with a second object or use special object abilities",
-        reference: "PHB, pg. 193.",
+        subtitle: "Interakció, speciális képességek",
+        description: "Egy második tárggyal való interakció vagy speciális tárgyképesség használata",
+        reference: "PHB, 193. o.",
         bullets: [
-            "You can interact with one object for free during your turn (such as drawing a weapon or opening a door). If you want to interact with a second object, use this action.",
-            "When an object requires your action for its use, you also take this action."
+            "A köröd során egy tárggyal ingyen interakcióba léphetsz (például fegyvert rántasz vagy ajtót nyitsz). Ha egy második tárggyal is interakcióba lépnél, ehhez ezt az akciót kell használnod.",
+            "Ha egy tárgy használata akciót igényel, akkor ezt az akciót hajtod végre."
         ]
     },
     {
-        title: "Use shield",
+        title: "Pajzs használata",
         icon: "round-shield",
-        subtitle: "Equip or unequip a shield",
-        description: "Equip or unequip a shield",
-        reference: "PHB, pgs. 144-146.",
+        subtitle: "Pajzs fel- vagy levétele",
+        description: "Pajzs fel- vagy levétele",
+        reference: "PHB, 144–146. o.",
         bullets: [
-            "A shield always takes an action to equip or unequip.",
-            "Armor takes several minutes to equip or unequip."
+            "A pajzs fel- és levétele mindig egy akciót igényel.",
+            "A páncél fel- és levétele több percet vesz igénybe."
         ]
     },
     {
-        title: "Hide",
+        title: "Rejtőzködés",
         icon: "hood",
         subtitle: "",
-        description: "Attempt to hide",
-        reference: "PHB, pg. 192.",
+        description: "Megpróbálsz elrejtőzni",
+        reference: "PHB, 192. o.",
         bullets: [
-            "You can't hide from a creature that can see you. You must have total cover, be in a heavily obscured area, be invisible, or otherwise block the enemy's vision.",
-            "If you make noise (such as shouting a warning or knocking over a vase), you give away your position.",
-            "When you try to hide, make a Dexterity (Stealth) check and note the result. Until you are discovered or you stop hiding, that check's total is contested by the Wisdom (Perception) check of any creature that actively searches for signs of your presence.",
-            "A creature notices you even if it isn't searching unless your Stealth check is higher than its Passive Perception.",
-            "Out of combat, you may also use a Dexterity (Stealth) check for acts like concealing yourself from enemies, slinking past guards, slipping away without being noticed, or sneaking up on someone without being seen or heard."
+            "Nem rejtőzködhetsz egy olyan lény elől, amely lát téged. Teljes fedezékben kell lenned, erősen takart területen, láthatatlannak kell lenned, vagy más módon el kell takarnod az ellenség látását.",
+            "Ha zajt csapsz (például kiabálsz vagy feldöntesz egy vázát), felfeded a helyzetedet.",
+            "Amikor rejtőzködni próbálsz, Ügyesség (Lopakodás) próbát dobsz, és feljegyzed az eredményt. Amíg fel nem fedeznek vagy abba nem hagyod a rejtőzködést, ezt az értéket minden olyan lény Bölcsesség (Észlelés) próbája ellenezi, amely aktívan keres téged.",
+            "Egy lény akkor is észrevesz, ha nem keres aktívan, hacsak a Lopakodás próbád nem magasabb, mint a passzív Észlelése.",
+            "Harcokon kívül is használhatsz Ügyesség (Lopakodás) próbát például ellenségek elől való elrejtőzésre, őrök melletti elsurranásra, észrevétlen eltűnésre, vagy valakihez való odalopózásra."
         ]
     },
     {
-        title: "Search",
+        title: "Keresés",
         icon: "magnifying-glass",
         subtitle: "",
-        description: "Devote your attention to finding something",
-        reference: "PHB, pg. 193.",
+        description: "Figyelmedet valamire összpontosítod",
+        reference: "PHB, 193. o.",
         bullets: [
-            "Depending on the nature of your search, the DM might have you make a Wisdom (Perception) check or an Intelligence (Investigation) check."
+            "A keresés jellegétől függően a KM Bölcsesség (Észlelés) vagy Intelligencia (Vizsgálat) próbát kérhet."
         ]
     },
     {
-        title: "Ready",
+        title: "Felkészülés",
         icon: "stopwatch",
-        subtitle: "Choose trigger and action",
-        description: "Choose a trigger and a response reaction",
-        reference: "PHB, pg. 193.",
+        subtitle: "Kiváltó ok és akció kiválasztása",
+        description: "Kiválasztasz egy kiváltó eseményt és egy reakciót",
+        reference: "PHB, 193. o.",
         bullets: [
-            "First, you decide what perceivable circumstance will trigger your reaction.",
-            "Then, you choose the action you will take in response to that trigger, or you choose to move up to your speed in response to it.",
-            "When the trigger occurs, you can either take your reaction right after the trigger finishes or ignore the trigger.",
-            "When you ready a spell, you cast it as normal but hold its energy, which you release with your reaction when the trigger occurs. To be readied, a spell must have a casting time of 1 action, and holding onto the spell's magic requires concentration"
+            "Először eldöntöd, milyen észlelhető körülmény váltja ki a reakciódat.",
+            "Ezután kiválasztod az akciót, amit végrehajtasz a kiváltó esemény hatására, vagy dönthetsz úgy, hogy legfeljebb a sebességeddel mozogsz.",
+            "Amikor a kiváltó esemény bekövetkezik, a reakciódat közvetlenül utána végrehajthatod, vagy figyelmen kívül hagyhatod.",
+            "Ha egy varázslatot készítesz elő, normál módon elmondod, de visszatartod az energiáját, és a reakcióddal szabadítod fel, amikor a kiváltó esemény bekövetkezik. Az előkészítéshez a varázslat varázslási idejének 1 akciónak kell lennie, és a varázslat fenntartása koncentrációt igényel."
         ]
     },
     {
-        title: "Use class feature",
+        title: "Osztályképesség használata",
         icon: "embrassed-energy",
-        subtitle: "Some features use actions",
-        description: "Use a racial or class feature that uses an action",
-        reference: "See class page for more information.",
+        subtitle: "Egyes képességek akciót igényelnek",
+        description: "Egy faji vagy osztályképesség használata, amely akciót igényel",
+        reference: "Lásd az osztály leírását további információkért.",
         bullets: [
-
         ]
     },
     {
-        title: "Stabilize a creature",
+        title: "Lény stabilizálása",
         icon: "first-aid",
-        subtitle: "Administer first aid to a dying creature",
-        description: "Stop a dying creature from needing to make death saving throws",
-        reference: "PHB, pg. 197.",
+        subtitle: "Elsősegély egy haldokló lénynek",
+        description: "Megakadályozod, hogy egy haldokló lény halálmentő dobásokat tegyen",
+        reference: "PHB, 197. o.",
         bullets: [
-            "Make a Wisdom (Medicine) check with DC 10",
-            "On a success, the creature is stable and no longer needs to make death saving throws",
-            "A stable creature regains 1 hit point after 1d4 hours"
+            "Bölcsesség (Gyógyítás) próba DC 10 ellen",
+            "Siker esetén a lény stabil állapotba kerül, és nem kell többé halálmentő dobásokat tennie",
+            "Egy stabil lény 1 életerőt nyer vissza 1d4 óra elteltével"
         ]
     },
     {
-        title: "Improvise",
+        title: "Improvizáció",
         icon: "juggler",
-        subtitle: "Any action not on this list",
-        description: "Perform any action you can imagine",
-        reference: "PHB, pg. 193.",
+        subtitle: "Bármely, a listán nem szereplő akció",
+        description: "Bármilyen elképzelhető akció végrehajtása",
+        reference: "PHB, 193. o.",
         bullets: [
-            "When you describe an action not detailed elsewhere in the rules, the DM tells you whether that action is possible and what kind of roll you need to make, if any, to determine success or failure."
+            "Ha olyan akciót írsz le, amelyet a szabályok máshol nem részleteznek, a KM megmondja, hogy az lehetséges-e, és milyen dobás szükséges (ha egyáltalán) a siker vagy kudarc eldöntéséhez."
         ]
     }
 ]
