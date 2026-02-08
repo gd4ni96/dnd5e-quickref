@@ -80,7 +80,7 @@ data_condition = [
     {
         title: "Láthatatlan",
         icon: "invisible",
-        subtitle: "Nem látható vagy",
+        subtitle: "Láthatatlan vagy",
         description: "Nem vagy látható mágikus vagy különleges érzékelés nélkül",
         reference: "PHB, 291. o.",
         bullets: [
